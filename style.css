@@ -1,4 +1,99 @@
-body {
-background-color: #f24242;
-color: #fff
+/* body {}
+
+header {
+    display: flex;
+    padding: 0px 10px;
+    justify-content: space-between;
+    align-items: center;
+    background: #F6F4F4;
+    width: 1200px;
+    margin: 0 auto;
 }
+
+
+.logo {
+    width: 103px;
+    height: 59px;
+    background: #D9D9D9;
+}
+
+/* nav {
+   
+} */
+/*
+nav ul {
+ display: flex;
+    align-items: flex-start;
+    gap: 17px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+color: #000;
+font-family: Inter;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+} */
+
+
+
+.header,
+.header * {
+  box-sizing: border-box;
+}
+.header {
+  background: #f6f4f4;
+  padding: 0px 10px 0px 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 1200px;
+  position: relative;
+  margin: 0 auto;
+}
+.logo {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.logo2 {
+  background: #d9d9d9;
+  flex-shrink: 0;
+  width: 103px;
+  height: 59px;
+  position: relative;
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  gap: 17px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.li {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+/* . {
+  color: #000000;
+  text-align: left;
+  font: 400 12px "Inter", sans-serif;
+  position: relative;
+} */
